@@ -1,4 +1,3 @@
-Status: Online
 Score: 100
 Categories: apigMatrix
 Parameters: 
@@ -11,8 +10,10 @@ ScenceInfos:
     Image: 'resources/icons/scence_logo.png'
 ScenceConfigs:
   - Name: 单机版
+    NameEn: 'Single Service'
     Url: 'templates/msa.yaml'
     DocumentUrl: 'docs/index.md'
+    DocumentEnUrl: 'docs/index_en.md'
     Parameters: 
       FcRuntime:
         Type: 'fc3'
@@ -20,5 +21,7 @@ ScenceConfigs:
           Cpu: 2018
           Memory: 4096
   - Name: 高可用版
+    NameEn: 'High Availability'
     Url: 'templates/msa-ha.yaml'
     DocumentUrl: 'docs/index_ha.md'
+    DocumentEnUrl: 'docs/index_ha_en.md'
