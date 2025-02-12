@@ -1,0 +1,13 @@
+Parameters: 
+  Region: 'cn-hangzhou'
+  Scence: 'key-auth-plugin'
+ScenceConfigs:
+  - Name: 单机版
+    NameEn: 'Single Service'
+    Url: 'templates/msa.yaml'
+    Parameters: 
+      FcRuntime:
+        Type: 'fc3'
+        Content:
+          Cpu: 2018
+          Memory: 4096
