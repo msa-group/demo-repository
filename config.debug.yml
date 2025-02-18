@@ -1,6 +1,7 @@
 Parameters: 
   Region: 'cn-hangzhou'
   Name: 'key-auth-plugin'
+  VpcId: 'vpc-cunbj26m1hkjrjddmljg'
 ScenceConfigs:
   - Name: 单机版
     NameEn: 'Single Service'
