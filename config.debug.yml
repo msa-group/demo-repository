@@ -1,6 +1,7 @@
 Parameters: 
   Region: 'cn-hangzhou'
   Scence: 'key-auth-plugin'
+  Name: 'key-auth-plugin'
 ScenceConfigs:
   - Name: 单机版
     NameEn: 'Single Service'
