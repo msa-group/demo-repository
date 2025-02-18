@@ -2,7 +2,9 @@ Score: 100
 Categories: apigMatrix
 Parameters: 
   Region: 'cn-hangzhou'
-  Scence: 'key-auth-plugin'
+  Name: 'key-auth-plugin'
+  GatewayId: gw-cunbie6m1hkohjeuilrg
+  EnvironmentId: env-cunbj26m1hkjrjddmljg
 ScenceInfos:
   - Locale: zh-CN
     Name: "key-auth 插件"
@@ -15,11 +17,9 @@ ScenceConfigs:
     DocumentUrl: 'docs/index.md'
     DocumentEnUrl: 'docs/index_en.md'
     Parameters: 
-      FcRuntime:
-        Type: 'fc3'
-        Content:
-          Cpu: 2018
-          Memory: 4096
+      Backend:
+        Cpu: 1
+        Memory: 4096
   - Name: 高可用版
     NameEn: 'High Availability'
     Url: 'templates/msa-ha.yaml'
