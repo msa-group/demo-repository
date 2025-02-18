@@ -19,7 +19,7 @@ Composer:
   HttpApi:
     DependsOn:
       - Service
-    Component: apig.http.api 
+    Component: apig.http 
     Parameters:
       Name: {{Subfix(Join([Parameters.Name, '-','http']))}}
       Routes:

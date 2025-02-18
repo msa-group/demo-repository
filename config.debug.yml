@@ -4,10 +4,15 @@ Parameters:
 ScenceConfigs:
   - Name: 单机版
     NameEn: 'Single Service'
-    Url: 'templates/msa.yaml'
+    Url: 'templates/msa.yml'
     Parameters: 
-      FcRuntime:
-        Type: 'fc3'
-        Content:
-          Cpu: 2018
-          Memory: 4096
+      Backend:
+        Cpu: 2018
+        Memory: 4096
+  - Name: 高可用
+    NameEn: 'High Availability'
+    Url: 'templates/msa-ha.yml'
+    Parameters: 
+      Backend:
+        Cpu: 4096
+        Memory: 8192
