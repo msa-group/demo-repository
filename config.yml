@@ -3,8 +3,6 @@ Categories: apigMatrix
 Parameters: 
   Region: 'cn-hangzhou'
   Name: 'key-auth-plugin'
-  GatewayId: gw-cunbie6m1hkohjeuilrg
-  EnvironmentId: env-cunbj26m1hkjrjddmljg
 ScenceInfos:
   - Locale: zh-CN
     Name: "key-auth 插件"
