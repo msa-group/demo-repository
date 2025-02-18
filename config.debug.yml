@@ -11,12 +11,12 @@ ScenceConfigs:
         GatewayId: gw-cunbie6m1hkohjeuilrg
         EnvironmentId: env-cunbj26m1hkjrjddmljg
       Backend:
-        Cpu: 2018
+        Cpu: 1
         Memory: 4096
   - Name: 高可用
     NameEn: 'High Availability'
     Url: 'templates/msa-ha.yml'
     Parameters: 
       Backend:
-        Cpu: 4096
+        Cpu: 2
         Memory: 8192
