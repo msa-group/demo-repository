@@ -2,10 +2,11 @@ Parameters:
   Region: 'cn-hangzhou'
   Name: 'key-auth-plugin'
   VpcId: 'vpc-cunbj26m1hkjrjddmljg'
-ScenceConfigs:
-  - Name: 单机版
-    NameEn: 'Single Service'
-    Url: 'templates/msa.yml'
+SceneProfiles:
+  - DisplayName:
+      zh-cn: 单机版
+      en: Single Service
+    Template: 'templates/msa.yaml'
     Parameters: 
       HttpApi:
         GatewayId: gw-cunbie6m1hkohjeuilrg
@@ -13,9 +14,10 @@ ScenceConfigs:
       Backend:
         Cpu: 1
         Memory: 4096
-  - Name: 高可用
-    NameEn: 'High Availability'
-    Url: 'templates/msa-ha.yml'
+  - DisplayName:
+      zh-cn: 高可用版
+      en: High Availability
+    Template: 'templates/msa-ha.yaml'
     Parameters: 
       Backend:
         Cpu: 2
