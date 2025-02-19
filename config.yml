@@ -1,23 +1,32 @@
 Parameters: 
   Region: 'cn-hangzhou'
   Name: 'key-auth-plugin'
-ScenceInfos:
-  - Locale: zh-CN
-    Name: "key-auth 插件"
-    Description: "key-auth 插件为云原生 API 网关提供了基于 API Key 的认证和权限控制功能，通过从 HTTP 请求的 URL 参数或请求头中提取 API Key，并验证其有效性和权限，该插件确保了 API 资源的安全访问"
-    Image: 'resources/icons/scence_logo.png'
-ScenceConfigs:
-  - Name: 单机版
-    NameEn: 'Single Service'
-    Url: 'templates/msa.yaml'
-    DocumentUrl: 'docs/index.md'
-    DocumentEnUrl: 'docs/index_en.md'
+
+SceneMetadata:
+  Name:
+    zh-cn: "key-auth 插件"
+    en: "Key Auth Plugin"
+  Description:
+    zh-cn: "为云原生API网关提供基于API Key的认证和权限控制..."
+    en: "Provides API Key-based authentication and authorization..."
+  Logo: 'resources/icons/scene_logo.png'
+
+SceneProfiles:
+  - DisplayName:
+      zh-cn: 单机版
+      en: Single Service
+    Template: 'templates/msa.yaml'
+    Documentation:
+      zh-cn: 'docs/zh-ch/index_ha.md'
+      en: docs/en/index_ha_en.md
     Parameters: 
       Backend:
         Cpu: 1
         Memory: 4096
-  - Name: 高可用版
-    NameEn: 'High Availability'
-    Url: 'templates/msa-ha.yaml'
-    DocumentUrl: 'docs/index_ha.md'
-    DocumentEnUrl: 'docs/index_ha_en.md'
+  - DisplayName:
+      zh-cn: 高可用版
+      en: High Availability
+    Template: 'templates/msa-ha.yaml'
+    Documentation:
+      zh-cn: 'docs/zh-ch/index_ha.md'
+      en: docs/en/index_ha_en.md
