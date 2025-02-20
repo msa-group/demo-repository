@@ -40,3 +40,4 @@ jobs:
           npx msa-tool upload -z $(basename "$PWD").zip
         env:
           FC_SERVICE: ${{ secrets.FC_SERVICE }}
+          FC_TOKEN: ${{ secrets.FC_TOKEN }}
