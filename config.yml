@@ -23,6 +23,8 @@ SceneProfiles:
       Backend:
         Cpu: 1
         Memory: 4096
+    Spec:
+      Backend: templates/fc3.spec.yml
   - DisplayName:
       zh-cn: 高可用版
       en: High Availability
